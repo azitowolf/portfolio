@@ -498,6 +498,9 @@ html.js,
     margin: 1em; }
   .bp-item {
     width: 100%; }
+    .bp-item img {
+      width: 120%;
+      height: auto; }
   #page-manuals .page-body {
     padding-right: 1em;
     padding-left: 1em; }
