@@ -224,7 +224,7 @@
 	}
 
 		var data = {
-		    labels: [".NET\n(Routing/Backend)", "Sitecore(Content Management)", "React JS(Interface/Views)", "UX(Customer Research)", "SCSS(Frontend Styling)", "Design(Illustration)"],
+		    labels: [".NET", "Sitecore", "React JS", "UX", "SCSS", "Design"],
 		    datasets: [
 		        {
 		            label: "Where I'm Going",
