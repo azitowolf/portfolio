@@ -32,17 +32,21 @@ a {
   outline: none; }
 
 a:hover {
-  color: #fff; }
+  color: #fff;
+  cursor: pointer; }
 
-/* Blueprint header */
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.1em; }
+
 .bp-header {
-  padding: 20em 0px 2em;
+  padding: 4em 0px 2em;
   max-width: 600px;
   margin: 0px auto; }
-
-.bp-header.skills,
-.bp-header.projects {
-  padding: 6em 2em 2em; }
+  .bp-header .projects p {
+    font-size: 0.8em; }
 
 .bp-item-container {
   display: flex;
@@ -330,7 +334,7 @@ html.js,
 
 .link--social {
   font-size: 1.5em;
-  margin: 0 0.75em; }
+  margin-right: 0.75em; }
 
 .link--tight {
   margin: 0.1em; }

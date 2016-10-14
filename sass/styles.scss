@@ -7,16 +7,11 @@
 	src: url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'), url('../fonts/bpicons/bpicons.woff') format('woff'), url('../fonts/bpicons/bpicons.ttf') format('truetype'), url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
 }
 
-// Resets
-
 *,
 *:after,
 *:before {
 	box-sizing: border-box;
 }
-
-
-// Helper classes
 
 .cf:before,
 .cf:after {
@@ -29,7 +24,7 @@
 }
 
 
-// Main styles
+// General styles
 
 body {
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
@@ -48,21 +43,28 @@ a {
 
 a:hover {
 	color: #fff;
+	cursor: pointer;
 }
 
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1.1em;
+}
 
-/* Blueprint header */
+// Header styles
 
 .bp-header {
-	padding: 20em 0px 2em;
+	padding: 4em 0px 2em;
 	max-width:600px;
 	margin: 0px auto;
+
+	.projects p{
+		font-size:0.8em;
+	}
 }
 
-.bp-header.skills,
-.bp-header.projects{
-	padding: 6em 2em 2em;
-}
 
 .bp-item-container{
 	display:flex;
@@ -407,7 +409,7 @@ html.js,
 
 .link--social {
 	font-size: 1.5em;
-	margin: 0 0.75em;
+	margin-right: 0.75em;
 }
 
 .link--tight {
