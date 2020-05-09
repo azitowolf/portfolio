@@ -4,7 +4,7 @@
 	'use strict';
 
 	var support = { transitions: Modernizr.csstransitions },
-		// transition end event name
+	// transition end event name
 		transEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },
 		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
 		onEndTransition = function( el, callback ) {
@@ -22,10 +22,6 @@
 				onEndCallbackFn();
 			}
 		}
-
-	function init() {
-		initEvents();
-	}
 
 
 	// event binding
@@ -48,7 +44,6 @@
 		var windowInterval = setInterval(changeRandomIconColor ,1000);
 	}
 
-
-	init();
+	initEvents();
 
 })(window);
